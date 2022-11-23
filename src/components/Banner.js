@@ -9,29 +9,22 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [setIndex] = useState(1);
+  const [index, setIndex] = useState(1);
   const toRotate = [ "Web Developer", "Web Developer", "Web Developer" ];
   const period = 2000;
 
-  useEffect(() => {
-    let ticker = setInterval(() => {
-      tick();
-    }, delta);
-
-    return () => { clearInterval(ticker) };
-  }, [delta, text])
-
+  
   const tick = () => {
     let i = loopNum % toRotate.length;
     let fullText = toRotate[i];
     let updatedText = isDeleting ? fullText.substring(0, text.length - 1) : fullText.substring(0, text.length + 1);
-
+    
     setText(updatedText);
-
+    
     if (isDeleting) {
       setDelta(prevDelta => prevDelta / 2);
     }
-
+    
     if (!isDeleting && updatedText === fullText) {
       setIsDeleting(true);
       setIndex(prevIndex => prevIndex - 1);
@@ -45,6 +38,15 @@ export const Banner = () => {
       setIndex(prevIndex => prevIndex + 1);
     }
   }
+  
+  useEffect(() => {
+    let ticker = setInterval(() => {
+      tick();
+    }, delta);
+
+    return () => { clearInterval(ticker) };
+  }, [delta, text])
+
 
   return (
     <section className="banner" id="home">
@@ -57,7 +59,6 @@ export const Banner = () => {
                 <span className="tagline">Portfolio: EYAHYA KHAN</span>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
                   <p>I’m a full stack Web developer with skills and experience about 1+ years. I love coding with own imagination and solving problem in easiest, simple and different point of view as well as create loving product for end user.</p>
-                  {/* <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button> */}
               </div>}
             </TrackVisibility>
           </Col>

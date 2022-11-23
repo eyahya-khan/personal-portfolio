@@ -1,5 +1,7 @@
 import { Container, Row, Col, Tab, Nav } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
+import { ProjectFullstackCard } from "./ProjectFullstackCard";
+import { ProjectGameCard } from "./ProjectGameCard";
 import musicRelease from "../assets/img/music-release.png";
 import chatbot from "../assets/img/chatbot.png";
 import businesSite from "../assets/img/business-site.png";
@@ -8,6 +10,9 @@ import weatherForecast from "../assets/img/weather-forecast.png";
 import labWork from "../assets/img/lab-work.png";
 import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
+import ecommerce from "../assets/img/ecommerce.png";
+import guessWho from "../assets/img/guess-who.png";
+import tictactoe from "../assets/img/tictactoe.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
@@ -81,6 +86,36 @@ export const Projects = () => {
     },
   ];
 
+  const Fullstack = [
+    {
+      title: "ECommerce",
+      description: "Full fledge ecommerce site",
+      tech: "C#, .NET MVC, React, MS SQL Server",
+      imgUrl: ecommerce,
+      url:"#",
+      github: "https://github.com/eyahya-khan/ecommerceShop"
+    },
+  ];
+
+  const Game = [
+    {
+      title: "Guess Who",
+      description: "Guess one person and filter by different criteria",
+      tech: "HTML5, CSS3, JavaScript",
+      imgUrl: guessWho,
+      url:"https://elegant-hypatia-dea1c6.netlify.app",
+      github: "https://github.com/eyahya-khan/project-guess-who"
+    },
+    {
+      title: "Tic tac toe",
+      description: "Classic game",
+      tech: "HTML5, CSS3, React",
+      imgUrl: tictactoe,
+      url:"https://hungry-mestorf-7f30e8.netlify.app",
+      github: "https://github.com/eyahya-khan/react-tic-tac-toe"
+    },
+  ];
+
   return (
     <section className="project" id="projects">
       <Container>
@@ -119,11 +154,33 @@ export const Projects = () => {
                       </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="second">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                    <Row>
+                        {
+                          Fullstack.map((fullstack, index) => {
+                            return (
+                              <ProjectFullstackCard
+                                key={index}
+                                {...fullstack}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
                     </Tab.Pane>
                     <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
+                    <Row>
+                        {
+                          Game.map((game, index) => {
+                            return (
+                              <ProjectGameCard
+                                key={index}
+                                {...game}
+                                />
+                            )
+                          })
+                        }
+                      </Row>
+                     </Tab.Pane>
                   </Tab.Content>
                 </Tab.Container>
               </div>}
