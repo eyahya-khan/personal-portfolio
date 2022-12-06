@@ -10,6 +10,7 @@ import weatherForecast from "../assets/img/weather-forecast.png";
 import labWork from "../assets/img/lab-work.png";
 import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
+import MovieList from "../assets/img/movieslist.png";
 import ecommerce from "../assets/img/ecommerce.png";
 import guessWho from "../assets/img/guess-who.png";
 import tictactoe from "../assets/img/tictactoe.png";
@@ -22,7 +23,7 @@ export const Projects = () => {
   const projects = [
     {
       title: "Music Release",
-      description: "Single page design",
+      description: "Single page design for displaying music list from API",
       tech: "HTML5, CSS3, React, API",
       imgUrl: musicRelease,
       url:"https://gracious-hodgkin-9dd75b.netlify.app/",
@@ -84,6 +85,14 @@ export const Projects = () => {
       url:"https://cranky-wescoff-f5b98a.netlify.app/",
       github: "https://github.com/eyahya-khan/project-survey"
     },
+    {
+      title: "Movie List",
+      description: "Displaying movie list from API and details of specific movie when click on it.",
+      tech: "HTML5, CSS3, React, API",
+      imgUrl: MovieList,
+      url:"https://gentle-empanada-7989b9.netlify.app",
+      github: "https://github.com/eyahya-khan/project-movie"
+    },
   ];
 
   const Fullstack = [
@@ -125,7 +134,7 @@ export const Projects = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn": ""}>
                 <h2>Projects</h2>
-                <p>During study period I did lots of projects</p>
+                <p>During study period I did lots of projects. Some of them are deployed in netlify.</p>
                 <Tab.Container id="projects-tabs" defaultActiveKey="first">
                   <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                     <Nav.Item>

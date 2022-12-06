@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import logo from '../assets/img/eyahyakhan.png';
-import navIcon1 from '../assets/img/nav-icon1.svg';
-// import github from '../assets/img/github.png';
-// import overflow from '../assets/img/overflow.png';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+// import navIcon1 from '../assets/img/nav-icon1.svg';
+import linkedin from '../assets/img/nav-icon1.svg';
+import github from '../assets/img/github.jpg';
+import overflow from '../assets/img/stack.jpg';
+// import navIcon2 from '../assets/img/nav-icon2.svg';
+// import navIcon3 from '../assets/img/nav-icon3.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
   BrowserRouter as Router
@@ -52,9 +53,9 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/eyahya-khan-a90b1125/" target={'_blank'} rel="noreferrer"><img src={navIcon1} alt="linkedin" /></a>
-                <a href="https://github.com/eyahya-khan" target={'_blank'} rel="noreferrer"><img src={navIcon2} alt="github" /></a>
-                <a href="https://stackoverflowteams.com/c/technigo/users/347" target={'_blank'} rel="noreferrer"><img src={navIcon3} alt="stack overflow" /></a>
+                <a href="https://www.linkedin.com/in/eyahya-khan-a90b1125/" target={'_blank'} rel="noreferrer"><img src={linkedin} alt="linkedin" /></a>
+                <a href="https://github.com/eyahya-khan" target={'_blank'} rel="noreferrer"><img src={github} alt="github" /></a>
+                <a href="https://stackoverflowteams.com/c/technigo/users/347" target={'_blank'} rel="noreferrer"><img src={overflow} alt="stack overflow" /></a>
               </div>
               <HashLink to='#connect'>
                 <button className="btn-contact"><span>Let’s Connect</span></button>
