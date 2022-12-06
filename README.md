@@ -8,4 +8,4 @@ Built using:
 
 ## view on live
 
-https://zippy-zabaione-287098.netlify.app/
+https://www.eyahyakhan.com/
