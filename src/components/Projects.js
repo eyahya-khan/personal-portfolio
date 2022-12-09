@@ -11,6 +11,7 @@ import labWork from "../assets/img/lab-work.png";
 import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
 import MovieList from "../assets/img/movieslist.png";
+import reactTodo from "../assets/img/reactTodo.png";
 import ecommerce from "../assets/img/ecommerce.png";
 import guessWho from "../assets/img/guess-who.png";
 import tictactoe from "../assets/img/tictactoe.png";
@@ -90,6 +91,14 @@ export const Projects = () => {
       description: "Displaying movie list from API and details of specific movie when click on it.",
       tech: "HTML5, CSS3, React, API",
       imgUrl: MovieList,
+      url:"https://gentle-empanada-7989b9.netlify.app",
+      github: "https://github.com/eyahya-khan/project-movie"
+    },
+    {
+      title: "Todo App",
+      description: "Todo App with CRUD function",
+      tech: "HTML5, React, SASS",
+      imgUrl: reactTodo,
       url:"https://gentle-empanada-7989b9.netlify.app",
       github: "https://github.com/eyahya-khan/project-movie"
     },
