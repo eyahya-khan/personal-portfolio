@@ -99,8 +99,8 @@ export const Projects = () => {
       description: "Todo App with CRUD function",
       tech: "HTML5, React, SASS",
       imgUrl: reactTodo,
-      url:"https://gentle-empanada-7989b9.netlify.app",
-      github: "https://github.com/eyahya-khan/project-movie"
+      url:"https://radiant-jalebi-f47137.netlify.app/",
+      github: "https://github.com/eyahya-khan/react-todo-app"
     },
   ];
 
