@@ -8,7 +8,7 @@ export const ProjectFullstackCard = ({ title, description, tech, url, github, im
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span><br />
-          <span>{tech}</span><br />
+          <span>{tech}</span><br /><br />
           {/* <a href={url} target={'_blank'} rel="noreferrer">View on live</a><br /> */}
           <a href={github} target={'_blank'} rel="noreferrer">Goto Github</a>
         </div>
