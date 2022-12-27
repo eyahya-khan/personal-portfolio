@@ -23,7 +23,7 @@ export const Footer = () => {
             <a href="https://github.com/eyahya-khan" target={'_blank'} rel="noreferrer"><img src={github} alt="Icon" /></a>
             <a href="https://stackoverflowteams.com/c/technigo/users/347" target={'_blank'} rel="noreferrer"><img src={overflow} alt="Icon" /></a>
             </div>
-            <p>@eyahyakhan 2022. All Rights Reserved</p>
+            <p>@eyahyakhan {new Date().getFullYear()}. All Rights Reserved</p>
           </Col>
         </Row>
       </Container>
