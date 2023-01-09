@@ -7,7 +7,7 @@ import chatbot from "../assets/img/chatbot.png";
 import businesSite from "../assets/img/business-site.png";
 import happyThought from "../assets/img/happy-thought.png";
 import weatherForecast from "../assets/img/weather-forecast.png";
-import labWork from "../assets/img/lab-work.png";
+// import labWork from "../assets/img/lab-work.png";
 import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
 import MovieList from "../assets/img/movieslist.png";
@@ -62,14 +62,14 @@ export const Projects = () => {
       url:"https://frosty-northcutt-a6eacd.netlify.app/",
       github: "https://github.com/eyahya-khan/project-weather-app"
     },
-    {
-      title: "ITHögskolan Lab task",
-      description: "First time lab work using Nextjs & API",
-      tech: "HTML5, CSS3, Nextjs, API",
-      imgUrl: labWork,
-      url:"https://nextjs-external-api.eyahya-khan.vercel.app/",
-      github: "https://github.com/eyahya-khan/nextjs-external-API"
-    },
+    // {
+    //   title: "ITHögskolan Lab task",
+    //   description: "First time lab work using Nextjs & API",
+    //   tech: "HTML5, CSS3, Nextjs, API",
+    //   imgUrl: labWork,
+    //   url:"https://nextjs-external-api.eyahya-khan.vercel.app/",
+    //   github: "https://github.com/eyahya-khan/nextjs-external-API"
+    // },
     {
       title: "Quiz app",
       description: "Choose correct answer and get result at the end",
