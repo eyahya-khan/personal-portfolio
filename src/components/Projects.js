@@ -12,6 +12,7 @@ import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
 import MovieList from "../assets/img/movieslist.png";
 import reactTodo from "../assets/img/reactTodo.png";
+import counter from "../assets/img/counter.png";
 import ecommerce from "../assets/img/ecommerce.png";
 import guessWho from "../assets/img/guess-who.png";
 import tictactoe from "../assets/img/tictactoe.png";
@@ -101,6 +102,14 @@ export const Projects = () => {
       imgUrl: reactTodo,
       url:"https://radiant-jalebi-f47137.netlify.app/",
       github: "https://github.com/eyahya-khan/react-todo-app"
+    },
+    {
+      title: "Counter with API",
+      description: "A counter to increment and decrement number (0 t0 7) and display the information  from API according to number",
+      tech: "React, Axios, styled component",
+      imgUrl: counter,
+      url:"https://codesandbox.io/s/amazing-curran-cqbohk?file=/src/Counter.js",
+      github: "https://github.com/eyahya-khan/NoAignite-test"
     },
   ];
 
