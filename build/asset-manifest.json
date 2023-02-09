@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1f37e988.css",
-    "main.js": "/static/js/main.beb17b93.js",
+    "main.js": "/static/js/main.f97caa99.js",
     "static/js/787.fb771931.chunk.js": "/static/js/787.fb771931.chunk.js",
     "static/media/movieslist.png": "/static/media/movieslist.f182564ae32f0c40b94b.png",
     "static/media/music-release.png": "/static/media/music-release.aac46e37cc4025b7bfec.png",
@@ -10,10 +10,12 @@
     "static/media/ecommerce.png": "/static/media/ecommerce.d1121c778e6c99c4b2f8.png",
     "static/media/color-sharp2.png": "/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/eyahyakhan.png": "/static/media/eyahyakhan.9b95b04a5d3f55aeba79.png",
+    "static/media/catStore.png": "/static/media/catStore.0911282c7f75e8a70f3a.png",
     "static/media/survey.png": "/static/media/survey.f934db2a40f1fb793eeb.png",
     "static/media/guess-who.png": "/static/media/guess-who.4e191e9917f055164ba1.png",
     "static/media/banner-bg.png": "/static/media/banner-bg.cc1273af450504afe755.png",
     "static/media/header-img.svg": "/static/media/header-img.84bf93eb20488a753440bf83d27db7bb.svg",
+    "static/media/convoj.png": "/static/media/convoj.73bb60165ae310db9576.png",
     "static/media/weather-forecast.png": "/static/media/weather-forecast.76d7d67ecba70e8b9ac5.png",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
@@ -35,11 +37,11 @@
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "index.html": "/index.html",
     "main.1f37e988.css.map": "/static/css/main.1f37e988.css.map",
-    "main.beb17b93.js.map": "/static/js/main.beb17b93.js.map",
+    "main.f97caa99.js.map": "/static/js/main.f97caa99.js.map",
     "787.fb771931.chunk.js.map": "/static/js/787.fb771931.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1f37e988.css",
-    "static/js/main.beb17b93.js"
+    "static/js/main.f97caa99.js"
   ]
 }
