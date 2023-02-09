@@ -7,13 +7,14 @@ import chatbot from "../assets/img/chatbot.png";
 import businesSite from "../assets/img/business-site.png";
 import happyThought from "../assets/img/happy-thought.png";
 import weatherForecast from "../assets/img/weather-forecast.png";
-// import labWork from "../assets/img/lab-work.png";
+import convoj from "../assets/img/convoj.png";
 import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
 import MovieList from "../assets/img/movieslist.png";
 import reactTodo from "../assets/img/reactTodo.png";
 import counter from "../assets/img/counter.png";
 import ecommerce from "../assets/img/ecommerce.png";
+import frostEcom from "../assets/img/catStore.png";
 import guessWho from "../assets/img/guess-who.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -23,6 +24,14 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Småsatadens kommun",
+      description: "Single page design for displaying employer work schedule",
+      tech: "React, TypeScript, API",
+      imgUrl: convoj,
+      url:"https://subtle-treacle-89f57d.netlify.app/",
+      github: "https://github.com/eyahya-khan/convoj"
+    },
     {
       title: "Music Release",
       description: "Single page design for displaying music list from API",
@@ -63,14 +72,6 @@ export const Projects = () => {
       url:"https://frosty-northcutt-a6eacd.netlify.app/",
       github: "https://github.com/eyahya-khan/project-weather-app"
     },
-    // {
-    //   title: "ITHögskolan Lab task",
-    //   description: "First time lab work using Nextjs & API",
-    //   tech: "HTML5, CSS3, Nextjs, API",
-    //   imgUrl: labWork,
-    //   url:"https://nextjs-external-api.eyahya-khan.vercel.app/",
-    //   github: "https://github.com/eyahya-khan/nextjs-external-API"
-    // },
     {
       title: "Quiz app",
       description: "Choose correct answer and get result at the end",
@@ -105,7 +106,7 @@ export const Projects = () => {
     },
     {
       title: "Counter with API",
-      description: "A counter to increment and decrement number (0 t0 7) and display the information  from API according to number",
+      description: "A counter to increment and decrement number (0 to 7) and display the information  from API according to number",
       tech: "React, Axios, styled component",
       imgUrl: counter,
       url:"https://codesandbox.io/s/amazing-curran-cqbohk?file=/src/Counter.js",
@@ -125,6 +126,14 @@ export const Projects = () => {
   ];
 
   const Game = [
+    {
+      title: "Cat store - Ecommerce App",
+      description: "Ecommerce app using API",
+      tech: "React Native, Expo.CLI",
+      imgUrl: frostEcom,
+      url:"https://expo.dev/@eyahyakhan/Cat-app",
+      github: "https://github.com/eyahya-khan/ct-frost-api"
+    },
     {
       title: "Guess Who",
       description: "Guess one person and filter by different criteria",
@@ -162,7 +171,7 @@ export const Projects = () => {
                       <Nav.Link eventKey="second">Fullstack</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">Game</Nav.Link>
+                      <Nav.Link eventKey="third">App & Game</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
