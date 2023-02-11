@@ -15,6 +15,7 @@ import reactTodo from "../assets/img/reactTodo.png";
 import counter from "../assets/img/counter.png";
 import ecommerce from "../assets/img/ecommerce.png";
 import frostEcom from "../assets/img/catStore.png";
+import onlineEdu from "../assets/img/education.png";
 import guessWho from "../assets/img/guess-who.png";
 import tictactoe from "../assets/img/tictactoe.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
@@ -123,17 +124,6 @@ export const Projects = () => {
       url:"#",
       github: "https://github.com/eyahya-khan/ecommerceShop"
     },
-  ];
-
-  const Game = [
-    {
-      title: "Cat store - Ecommerce App",
-      description: "Ecommerce app using API",
-      tech: "React Native, Expo.CLI",
-      imgUrl: frostEcom,
-      url:"https://expo.dev/@eyahyakhan/Cat-app",
-      github: "https://github.com/eyahya-khan/ct-frost-api"
-    },
     {
       title: "Guess Who",
       description: "Guess one person and filter by different criteria",
@@ -149,6 +139,25 @@ export const Projects = () => {
       imgUrl: tictactoe,
       url:"https://hungry-mestorf-7f30e8.netlify.app",
       github: "https://github.com/eyahya-khan/react-tic-tac-toe"
+    },
+  ];
+
+  const Game = [
+    {
+      title: "Cat store - Ecommerce App",
+      description: "Ecommerce app using API",
+      tech: "React Native, Expo.CLI",
+      imgUrl: frostEcom,
+      url:"https://expo.dev/@eyahyakhan/Cat-app",
+      github: "https://github.com/eyahya-khan/ct-frost-api"
+    },
+    {
+      title: "Online Education System",
+      description: "Fetch data from API, It covers allmost everything of basic and advanced knowledge",
+      tech: "React Native, Expo.CLI",
+      imgUrl: onlineEdu,
+      url:"https://expo.dev/@eyahyakhan/nativeFullProject",
+      github: "https://github.com/eyahya-khan/nativeFullProject"
     },
   ];
 
@@ -168,10 +177,10 @@ export const Projects = () => {
                       <Nav.Link eventKey="first">Frontend</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="second">Fullstack</Nav.Link>
+                      <Nav.Link eventKey="second">Fullstack & Game</Nav.Link>
                     </Nav.Item>
                     <Nav.Item>
-                      <Nav.Link eventKey="third">App & Game</Nav.Link>
+                      <Nav.Link eventKey="third">React Native App</Nav.Link>
                     </Nav.Item>
                   </Nav>
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
