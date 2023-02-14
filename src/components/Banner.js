@@ -49,7 +49,7 @@ export const Banner = () => {
 
 
   return (
-    <section className="banner" id="home">
+    <section className="banner" data-testid = "home" id="home">
       <Container>
         <Row className="aligh-items-center">
           <Col xs={12} md={6} xl={7}>
@@ -58,7 +58,7 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Portfolio: EYAHYA KHAN</span>
                 <h1><span className="txt-rotate" dataPeriod="1000" data-rotate='[ "Web Developer", "Web Developer", "Web Developer" ]'><span className="wrap">{text}</span></span></h1>
-                  <p>I’m a full stack Web developer with skills and experience about 1+ years. I love coding with own imagination and solving problem in easiest, simple and different point of view as well as create loving product for end user.</p>
+                  <p>I’m a full stack Web developer with skills and experience about 2 years. I love coding with own imagination and solving problem in easiest, simple and different point of view as well as create loving product for end user.</p>
               </div>}
             </TrackVisibility>
           </Col>

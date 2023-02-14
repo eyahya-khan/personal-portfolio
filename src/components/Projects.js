@@ -12,7 +12,6 @@ import quizApp from "../assets/img/quiz-app.png";
 import survey from "../assets/img/survey.png";
 import MovieList from "../assets/img/movieslist.png";
 import reactTodo from "../assets/img/reactTodo.png";
-import counter from "../assets/img/counter.png";
 import ecommerce from "../assets/img/ecommerce.png";
 import frostEcom from "../assets/img/catStore.png";
 import onlineEdu from "../assets/img/education.png";
@@ -36,7 +35,7 @@ export const Projects = () => {
     {
       title: "Music Release",
       description: "Single page design for displaying music list from API",
-      tech: "HTML5, CSS3, React, API",
+      tech: "React, API",
       imgUrl: musicRelease,
       url:"https://gracious-hodgkin-9dd75b.netlify.app/",
       github: "https://github.com/eyahya-khan/project-music-releases"
@@ -60,7 +59,7 @@ export const Projects = () => {
     {
       title: "Happy Thought",
       description: "Single comment page",
-      tech: "HTML5, CSS3, React",
+      tech: "React",
       imgUrl: happyThought,
       url:"https://glowing-cat-9f10e8.netlify.app",
       github: "https://github.com/eyahya-khan/project-happy-thoughts"
@@ -76,7 +75,7 @@ export const Projects = () => {
     {
       title: "Quiz app",
       description: "Choose correct answer and get result at the end",
-      tech: "HTML5, CSS3, React",
+      tech: "React",
       imgUrl: quizApp,
       url:"https://silly-mayer-8347a7.netlify.app/",
       github: "https://github.com/eyahya-khan/react-quizApp-using-useState"
@@ -84,7 +83,7 @@ export const Projects = () => {
     {
       title: "Survey",
       description: "Survey for a program",
-      tech: "HTML5, CSS3, React",
+      tech: "React",
       imgUrl: survey,
       url:"https://cranky-wescoff-f5b98a.netlify.app/",
       github: "https://github.com/eyahya-khan/project-survey"
@@ -92,7 +91,7 @@ export const Projects = () => {
     {
       title: "Movie List",
       description: "Displaying movie list from API and details of specific movie when click on it.",
-      tech: "HTML5, CSS3, React, API",
+      tech: "React, API",
       imgUrl: MovieList,
       url:"https://gentle-empanada-7989b9.netlify.app",
       github: "https://github.com/eyahya-khan/project-movie"
@@ -100,18 +99,10 @@ export const Projects = () => {
     {
       title: "Todo App",
       description: "Todo App with CRUD function",
-      tech: "HTML5, React, SASS",
+      tech: "React",
       imgUrl: reactTodo,
       url:"https://radiant-jalebi-f47137.netlify.app/",
       github: "https://github.com/eyahya-khan/react-todo-app"
-    },
-    {
-      title: "Counter with API",
-      description: "A counter to increment and decrement number (0 to 7) and display the information  from API according to number",
-      tech: "React, Axios, styled component",
-      imgUrl: counter,
-      url:"https://codesandbox.io/s/amazing-curran-cqbohk?file=/src/Counter.js",
-      github: "https://github.com/eyahya-khan/NoAignite-test"
     },
   ];
 
@@ -135,7 +126,7 @@ export const Projects = () => {
     {
       title: "Tic tac toe",
       description: "Classic game",
-      tech: "HTML5, CSS3, React",
+      tech: "React",
       imgUrl: tictactoe,
       url:"https://hungry-mestorf-7f30e8.netlify.app",
       github: "https://github.com/eyahya-khan/react-tic-tac-toe"
