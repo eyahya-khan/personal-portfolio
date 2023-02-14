@@ -27,12 +27,12 @@ export const Skills = () => {
   };
 
   return (
-    <section className="skill" id="skills">
+    <section className="skill" id="skills" data-testid = "skill">
         <div className="container">
             <div className="row">
                 <div className="col-12">
-                    <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
+                    <div className="skill-bx wow zoomIn" data-testid = "skill-box">
+                        <h2 data-testid = "skl-txt">Skills</h2>
                         <p>JavaScript, typeScript, Reactjs, Nextjs, React Native, Nodejs <br></br>C#, MVC, ASP.NET Core, Razor pages, LINQ, MS SQL server
                         <br></br>TDD, Figma, Mob, Scrum, SEO, UI/UX, REST API, Azure </p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider" autoPlay={true} autoPlaySpeed={2000}>
