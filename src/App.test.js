@@ -3,10 +3,12 @@ import { Banner } from './components/Banner';
 import { Skills } from './components/Skills';
 
 test('Check text and class name in Banner component', () => {
-  render(<Banner />);
+  //Arrange
+  render(<Banner />); 
+  //Act
   const text = screen.getByText(/Portfolio: EYAHYA KHAN/i);
   const bannerSection = screen.getByTestId('home')
-  
+  //Assert
   expect(text).toBeInTheDocument();
   expect(bannerSection).toHaveClass('banner')
 });
