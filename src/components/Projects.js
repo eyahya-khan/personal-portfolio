@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import { ProjectFullstackCard } from "./ProjectFullstackCard";
 import { ProjectGameCard } from "./ProjectGameCard";
 import musicRelease from "../assets/img/music-release.png";
+import reduxQuiz from "../assets/img/redux-quiz.png";
 import chatbot from "../assets/img/chatbot.png";
 import businesSite from "../assets/img/business-site.png";
 import happyThought from "../assets/img/happy-thought.png";
@@ -24,6 +25,14 @@ import TrackVisibility from 'react-on-screen';
 export const Projects = () => {
 
   const projects = [
+    {
+      title: "Redux-quiz App",
+      description: "Quiz for guessing butt of animal",
+      tech: "React, Redux",
+      imgUrl: reduxQuiz,
+      url:"https://lambent-trifle-2e72be.netlify.app",
+      github: "https://github.com/eyahya-khan/project-redux-quiz"
+    },
     {
       title: "Småsatadens kommun",
       description: "Single page design for displaying employer work schedule",
